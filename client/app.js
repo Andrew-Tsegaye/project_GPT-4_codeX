@@ -81,7 +81,7 @@ const handleSubmit = async e => {
   // messageDiv.innerHTML = "..."
   loader(messageDiv);
 
-  const response = await fetch('https://api.openai.com/v1/completions', {
+  const response = await fetch('http://localhost:5000', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
@@ -98,14 +98,12 @@ const handleSubmit = async e => {
     const data = await response.json();
     const parsedData = data.bot.trim(); // trims any trailing spaces/'\n'
 
-    console.log({ parsedData });
-
     typeText(messageDiv, parsedData);
   } else {
     const err = await response.text();
 
     messageDiv.innerHTML = 'Something went wrong :D';
-    console.log(err);
+    alert(err);
   }
 };
 

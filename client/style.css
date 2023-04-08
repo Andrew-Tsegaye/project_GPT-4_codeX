@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@100;300;400;500;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 
 * {
   margin: 0;
@@ -8,18 +9,25 @@
 }
 
 body {
-  background: #343541;
+  background: #191a21;
 }
 
 #app {
   width: 100vw;
   height: 100vh;
-  background: #343541;
+  background: #1f2026d3;
 
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
+}
+
+h1 {
+  color: #37ff8b;
+  margin-top: 15px;
+  font-family: 'Lobster', sans-serif;
+  font-size: 34px;
 }
 
 #chat_container {
@@ -51,6 +59,7 @@ body {
 
 .ai {
   background: #40414f;
+  color: #191a21;
 }
 
 .chat {
@@ -110,6 +119,8 @@ body {
   white-space: pre-wrap;
   -ms-overflow-style: none;
   scrollbar-width: none;
+  display: grid;
+  align-self: center;
 }
 
 /* hides scrollbar */
@@ -121,7 +132,7 @@ form {
   width: 100%;
   max-width: 1280px;
   margin: 0 auto;
-  padding: 10px;
+  padding: 5px;
   background: #40414f;
 
   display: flex;
@@ -154,4 +165,23 @@ button {
 form img {
   width: 30px;
   height: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+  #chat_container {
+    padding-bottom: 50px;
+  }
+
+  .message {
+    font-size: 16px;
+  }
+
+  textarea {
+    font-size: 14px;
+  }
+
+  form img {
+    width: 25px;
+    height: 25px;
+  }
 }
