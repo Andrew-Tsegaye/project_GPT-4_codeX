@@ -1,13 +1,13 @@
 # Project GPT-4 CodeX
-This is a text generation web application that utilizes OpenAI's GPT-3 API to generate natural language text based on user input.
+This is a text generation web application that utilizes OpenAI's GPT-4 API to generate natural language text based on user input.
 
 ## Features
 
 - User-friendly interface
 - Ability to generate natural language text based on user input
 - Option to select the length of the generated text
-- Option to choose from a range of GPT-3 models
-- Integration with OpenAI's GPT-3 API
+- Option to choose from a range of GPT-4 models
+- Integration with OpenAI's GPT-4 API
 
 ## Technologies Used
 The application was built using the following technologies:
@@ -16,7 +16,7 @@ The application was built using the following technologies:
 - CSS
 - JavaScript
 - Vite
-- OpenAI's GPT-3 API
+- OpenAI's GPT-4 API
 
 ## Installation
 To run this application on your local machine, you'll need to have Node.js installed. Once you have Node.js installed, follow these steps:
