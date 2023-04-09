@@ -1,6 +1,8 @@
 # Project GPT-4 CodeX
 This is a text generation web application that utilizes OpenAI's GPT-4 API to generate natural language text based on user input.
 
+![GPT-4 Screenshot](https://i.imgur.com/QkfX6p5.png)
+
 ## Features
 
 - User-friendly interface
@@ -46,4 +48,5 @@ Please make sure to include a detailed description of your changes in your pull 
 This project is licensed under the MIT license. See the LICENSE file for more information.
 
 ## Contact
-If you have any questions or comments about this project, please feel free to contact me at andrew@jsmastery.pro[mailTo: andrewtsegaye7@gmail.com].
+If you have any questions or comments about this project, please feel free to contact me at [Email Me](mailto:andrewtsegaye7@gmail.com).
+
