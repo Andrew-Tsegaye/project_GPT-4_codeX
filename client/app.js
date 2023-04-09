@@ -81,7 +81,7 @@ const handleSubmit = async e => {
   // messageDiv.innerHTML = "..."
   loader(messageDiv);
 
-  const response = await fetch('https://openai-codex-9nsa.onrender.com', {
+  const response = await fetch('http://localhost:5000', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
@@ -103,7 +103,7 @@ const handleSubmit = async e => {
     const err = await response.text();
 
     messageDiv.innerHTML = 'Something went wrong :D';
-    alert(err);
+    console.error(err);
   }
 };
 
